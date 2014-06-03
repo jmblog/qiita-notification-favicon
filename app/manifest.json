@@ -1,0 +1,36 @@
+{
+    "name": "Qiita Notification Favicon",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Chrome Extension to notfify updates of your Qiita and Qiita:Team page on the tab's favicon.",
+    "icons": {
+      "16": "images/qiita-icon-16.png",
+      "48": "images/qiita-icon-48.png",
+      "128": "images/qiita-icon-128.png"
+    },
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "permissions": [
+        "webRequest",
+        "*://*.qiita.com/api/notifications/count",
+        "*://qiita.com/api/notifications/count"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://qiita.com/*",
+                "https://qiita.com/*",
+                "http://*.qiita.com/*",
+                "https://*.qiita.com/*"
+            ],
+            "js": [
+                "scripts/vendor/favico-0.3.4.min.js",
+                "scripts/contentscript.js"
+            ]
+        }
+    ],
+    "homepage_url": "https://github.com/jmblog/qiita-notification-favicon"
+}

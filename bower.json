@@ -1,0 +1,21 @@
+{
+  "name": "qiita-notification-favicon",
+  "version": "0.0.1",
+  "authors": [
+    "Yoshihide Jimbo <yjimbo@gmail.com>"
+  ],
+  "description": "Chrome Extension to notfify updates of your Qiita and Qiita:Team page on the tab's favicon.",
+  "license": "MIT",
+  "homepage": "https://github.com/jmblog/qiita-notification-favicon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "favico.js": "~0.3.4"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,18 @@
+{
+  "name": "qiita-notification-favicon",
+  "description": "Chrome Extension to notfify updates of your Qiita and Qiita:Team page on the tab's favicon.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jmblog/qiita-notification-favicon",
+  "repository": "jmblog/qiita-notification-favicon",
+  "author": "Yoshihide Jimbo",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.7.0",
+    "gulp-coffee": "^1.4.3",
+    "gulp-coffeelint": "^0.3.3",
+    "gulp-watch": "^0.6.5",
+    "gulp-zip": "^0.3.4"
+  },
+  "license": "MIT"
+}
