@@ -28,7 +28,7 @@ gulp.task 'copy', ->
   gulp.src 'app/manifest.json'
     .pipe gulp.dest 'dist'
 
-gulp.task 'build', ['copy']
+gulp.task 'build', ['coffeelint', 'coffee', 'copy']
 
 gulp.task 'zip', ['build'], ->
   gulp.src 'app/**/*'
