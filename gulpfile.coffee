@@ -31,6 +31,6 @@ gulp.task 'copy', ->
 gulp.task 'build', ['coffeelint', 'coffee', 'copy']
 
 gulp.task 'zip', ['build'], ->
-  gulp.src 'app/**/*'
+  gulp.src 'dist/**/*'
     .pipe zip 'app.zip'
     .pipe gulp.dest '.'

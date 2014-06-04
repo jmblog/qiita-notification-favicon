@@ -2,12 +2,13 @@
     "name": "Qiita Notification Favicon",
     "version": "0.0.1",
     "manifest_version": 2,
-    "description": "Chrome Extension to notfify updates of your Qiita and Qiita:Team page on the tab's favicon.",
+    "description": "Qiita および Qiita:Team の通知をタブの Favicon で確認することができます。",
     "icons": {
       "16": "images/qiita-icon-16.png",
       "48": "images/qiita-icon-48.png",
       "128": "images/qiita-icon-128.png"
     },
+    "author": "Yoshihide Jimbo",
     "background": {
         "scripts": [
             "scripts/background.js"

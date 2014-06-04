@@ -24,7 +24,6 @@ chrome.runtime.onMessage.addListener(
 
 updateFavicon = ->
   cnt = document.getElementsByClassName('js-globalNotification_count')[0].innerHTML
-  if cnt
-    favicon.badge cnt
+  favicon.badge cnt
 
 init()
