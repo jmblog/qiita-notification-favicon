@@ -1,4 +1,8 @@
-qiita-notification-favicon
+Qiita Notification Favicon for Google Chrome
 ==========================
 
-Chrome Extension to notfify updates of your Qiita and Qiita:Team page on the tab's favicon.
+Qiita および Qiita:Team の通知をタブの Favicon で確認することができる Chrome 機能拡張です。
+
+[![](doc/chrome_webstore_badge.png)](https://chrome.google.com/webstore/detail/qiita-notification-favico/jjigalpnibnljelckechpdgepplebgce)
+
+![](doc/screenshot_640x400.png)
